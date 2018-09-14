@@ -4,7 +4,7 @@ Hacks for various Goke GK7102 based IP Cameras, incl Domoticz connection
 This works on the cheap DG-MYQ cloudcam from Digoo (at least version 3.2.8.0121 that appears to have a R/W /home folder)
 
 This reposirory is based on https://github.com/ant-thomas/zsgx1hacks , I made this copy to avoid messing things up.
-aDDITIONAL INFO CAN BE FOUND IN https://github.com/yuvadm/DG-M1Q
+Additionalinfo can be found in https://github.com/yuvadm/DG-M1Q
 
 Features:
 
