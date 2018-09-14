@@ -31,7 +31,9 @@ If you do not need Domoticz logging, you have to comment out two lines in the /h
 
 Configure Domoticz logging:
 
-  In Domoticz: Create a virtual device of type "Sensor", remember the index of that device!
+  In Domoticz: 
+  
+    Create a virtual device of type "Sensor", remember the index of that device!
   
   On your camera:
   
