@@ -18,6 +18,7 @@ Features:
 NOTE: ONLY the persistent hack (ie. where you do not need the SD card for R/W capable cameras) is tested to be working.
 
 Instructions: (note 192.168.1.117 is my camera IP, adapt to your own)
+
   Shell login: root / cxlinux
   
   OnVif: rtsp://192.168.1.117 (1280x720 resolution), username admin/no password
