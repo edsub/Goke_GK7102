@@ -30,7 +30,7 @@ Instructions: (note 192.168.1.117 is my camera IP, adapt to your own)
   
     OnVif: rtsp://192.168.1.117 (1280x720 resolution), username admin/no password
   
-    Snapshot: http://192.168.1,117:554/snapshot (320x180 resolution)
+    Snapshot: http://192.168.1.117:554/snapshot (320x180 resolution)
   
     Webui: http://192.168.1.117:8080/cgi-bin/webui
   
