@@ -20,6 +20,12 @@ NOTE: ONLY the persistent hack (ie. where you do not need the SD card for R/W ca
 
 Instructions: (note 192.168.1.117 is my camera IP, adapt to your own)
 
+    Copy the contents of sdcard.rar to am empty SD card, put it in your camera and start the thing up.
+    
+    It is advised to have the camera configured for your WiFi using the Digoo app beforehand!!
+    
+    You can start an SSH (or serial if you use the serial port of the camera board) shell to the camera
+    
     Shell login: root / cxlinux
   
     OnVif: rtsp://192.168.1.117 (1280x720 resolution), username admin/no password
