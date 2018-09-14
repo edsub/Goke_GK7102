@@ -6,26 +6,27 @@ This works on the cheap DG-MYQ cloudcam from Digoo (at least version 3.2.8.0121 
 This reposirory is based on https://github.com/ant-thomas/zsgx1hacks , I made this copy to avoid messing things up.
 
 Features:
-  Startup made more robust (especialy waiting for the network to become available)
+
+    Startup made more robust (especialy waiting for the network to become available)
   
-  Introduced native Domoticz logging based on Camera EVENTs (probably sensitivity needs tweaking)
+    Introduced native Domoticz logging based on Camera EVENTs (probably sensitivity needs tweaking)
   
-  Included jpeg snapshot
+    Included jpeg snapshot
   
-  Improved webui page (includes snapshot and manual IRCut operation)
+    Improved webui page (includes snapshot and manual IRCut operation)
 
 
 NOTE: ONLY the persistent hack (ie. where you do not need the SD card for R/W capable cameras) is tested to be working.
 
 Instructions: (note 192.168.1.117 is my camera IP, adapt to your own)
 
-  Shell login: root / cxlinux
+    Shell login: root / cxlinux
   
-  OnVif: rtsp://192.168.1.117 (1280x720 resolution), username admin/no password
+    OnVif: rtsp://192.168.1.117 (1280x720 resolution), username admin/no password
   
-  Snapshot: http://192.168.1,117:554/snapshot (320x180 resolution)
+    Snapshot: http://192.168.1,117:554/snapshot (320x180 resolution)
   
-  Webui: http://192.168.1.117:8080/cgi-bin/webui
+    Webui: http://192.168.1.117:8080/cgi-bin/webui
   
 
 If you do not need Domoticz logging, you have to comment out two lines in the /home/p2pcam.sh script. These lines are marked with "#Comment out next line if NO Domoticz logging is needed"
