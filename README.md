@@ -22,7 +22,12 @@ Instructions: (note 192.168.1.117 is my camera IP, adapt to your own)
 
     Copy the contents of sdcard.rar to am empty SD card, put it in your camera and start the thing up.
     
-    It is advised to have the camera configured for your WiFi using the Digoo app beforehand!!
+    It is advised to have the camera configured for your WiFi using the Digoo app beforehand, OR you can use following instructions:
+    
+      run /home/hack/goke_p2pcam_param -f /home/devParam.dat -wtest -ktest. 
+      Any SSID and PSK are fine, this is not used at all AFAIK, but without this wpa_supplicant is never started.
+      Set your SSID and PSK in /home/wpa_supplicant.conf.
+      Device should connect to your WiFi after reboot.
     
     You can start an SSH (or serial if you use the serial port of the camera board) shell to the camera
     
